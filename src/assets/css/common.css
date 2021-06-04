@@ -1,0 +1,129 @@
+.el-pager li.active {
+    background: #2d3a4b;
+    color: white;
+}
+
+.el-table th {
+    background: #f2f2f2 !important;
+    text-align: center;
+}
+
+.el-time-panel__btn.confirm {
+    background: #fff !important;
+}
+
+.el-submenu__title i {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.el-submenu__title{
+    text-align: left;
+}
+
+/* google、safari */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+/* 火狐 */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    box-shadow: 0 0 0 1000px white inset;
+}
+
+.btn-blue {
+    background: #e9edfa !important;
+    color: #212121 !important;
+    border-color: #e9edfa !important;
+}
+
+.btn-green {
+    background: #e9edfa !important;
+    color: #212121 !important;
+    border-color: #e9edfa !important;
+}
+
+.btn-red {
+    background: #e9edfa !important;
+    color: #212121 !important;
+    border-color: #e9edfa !important;
+}
+
+.btn-purple {
+    background: #e9edfa !important;
+    color: #212121 !important;
+    border-color: #e9edfa !important;
+}
+
+.btn-blue:hover {
+    background: #beccfa !important;
+    color: #212121 !important;
+    border-color: #beccfa !important;
+}
+
+.btn-green:hover {
+    background: #beccfa !important;
+    color: #212121 !important;
+    border-color: #beccfa !important;
+}
+
+.btn-red:hover {
+    background: #beccfa !important;
+    color: #212121 !important;
+    border-color: #beccfa !important;
+}
+
+.btn-purple:hover {
+    background: #beccfa !important;
+    color: #212121 !important;
+    border-color: #beccfa !important;
+}
+
+.el-table td,
+.el-table th {
+    text-align: center;
+}
+
+.el-dialog__header {
+    background: rgb(35, 38, 46);
+    color: white;
+    text-align: left;
+}
+
+.el-dialog__header .el-dialog__title {
+    color: white;
+}
+
+.el-dialog__footer .dialog-footer .el-button+.el-button {
+    margin-left: 30px;
+}
+
+.border0 {
+    border: none;
+}
+
+.btn-class {
+    background: #e9edfa !important;
+    color: #212121 !important;
+    border-color: #e9edfa !important;
+}
+
+.btn-class:hover {
+    background: #beccfa !important;
+    color: #212121 !important;
+    border-color: #beccfa !important;
+}
+
+.el-form--inline .el-form-item {
+    display: inline-flex;
+}
+.el-button{
+    padding: 10px 15px;
+}

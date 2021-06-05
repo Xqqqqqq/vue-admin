@@ -55,17 +55,17 @@ export default {
           menu_name: '疫情上报管理',
           route_path: '/reportManagement',
         },{
-          menu_name: '项目数据管理',
-          route_path: '/main',
+          menu_name: 'store使用样例',
+          route_path: '/storeText',
         },
       ]},{
         menu_name: '智能云问诊平台',
-        route_path: '/main',
+        route_path: '',
         icon: 'el-icon-heavy-rain',
         menu_id:'2',
         childlist:[{
-          menu_name: '预约/接诊管理',
-          route_path: '/main',
+          menu_name: 'cascader使用样例',
+          route_path: '/cascaderText',
         },{
           menu_name: '会诊信息管理',
           route_path: '/main',
@@ -108,22 +108,7 @@ export default {
         },{
           menu_name: '职工健康信息管理',
           route_path: '/main',
-        },{
-          menu_name: '讲师基本信息管理',
-          route_path: '/main',
-        },{
-          menu_name: '医务人员信息管理',
-          route_path: '/main',
-        },{
-          menu_name: '角色管理',
-          route_path: '/main',
-        },{
-          menu_name: '日志监控',
-          route_path: '/main',
-        },{
-          menu_name: '权限管理',
-          route_path: '/main',
-        }]
+        },]
       }]
     }
   },

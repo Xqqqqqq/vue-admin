@@ -2,5 +2,9 @@
 // 登录
 export const LOG_GETUSERINFO = 'LOG_GETUSERINFO';
 
+// index
+export const INDEX_MONEYTOTAL = 'INDEX_MONEYTOTAL';
+export const INDEX_ADD = 'INDEX_ADD';
+
 // 公共
 export const INDEX_COLLAPSE = 'INDEX_COLLAPSE';

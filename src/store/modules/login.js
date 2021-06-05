@@ -2,12 +2,14 @@ import * as types from '../types'
 import * as api from '../../http/api'
 
 const state = {
-  userInfo: {},
+  userInfo: {
+    a: '1'
+  },
 };
 
 const mutations = {
   [types.LOG_GETUSERINFO](state, status) {
-      state.userInfo = Object.assign({}, status);
+    state.userInfo = Object.assign({}, status);
   },
 };
 
@@ -16,7 +18,9 @@ const getters = {
 };
 
 const actions = {
-  
+  getUserInfo(){
+    
+  }
 }
 
 export default {

@@ -35,6 +35,24 @@ const routes = [
     },
     children:[
       {
+        path: "/storeText",
+        name: "storeText",
+        component: () =>import ("../views/pages/storeText.vue"),
+        meta: {
+          title: "store使用样例",
+          requiresAuth: true,
+        }
+      },
+      {
+        path: "/cascaderText",
+        name: "cascaderText",
+        component: () =>import ("../views/pages/cascaderText.vue"),
+        meta: {
+          title: "cascader使用样例",
+          requiresAuth: true,
+        }
+      },
+      {
         path: "/dataCollection",
         name: "dataCollection",
         component: () =>import ("../views/pages/infectiousDiseases/dataCollection.vue"),
